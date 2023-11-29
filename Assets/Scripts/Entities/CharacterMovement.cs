@@ -7,6 +7,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
 
+
     private CharacterController _controller;
 
     private Vector2 _movementDirection = Vector2.zero;
@@ -40,4 +41,4 @@ public class CharacterMovement : MonoBehaviour
 
         _rigidbody.velocity = direction;
     }
- }
+}

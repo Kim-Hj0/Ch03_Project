@@ -219,7 +219,7 @@ Animator:
   m_GameObject: {fileID: 44611277}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 804f3c6880a688a43b3ad335664fa14e, type: 2}
+  m_Controller: {fileID: 9100000, guid: c4c1f453305be424dbfc9d8b6b2a16c2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4859,7 +4859,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4920,6 +4920,7 @@ GameObject:
   - component: {fileID: 813848849}
   - component: {fileID: 813848852}
   - component: {fileID: 813848855}
+  - component: {fileID: 813848857}
   - component: {fileID: 813848851}
   - component: {fileID: 813848854}
   - component: {fileID: 813848856}
@@ -5139,6 +5140,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &813848857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813848847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc463bda57846f945bf3df2543c168b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 44611280}
 --- !u!1 &823987904
 GameObject:
   m_ObjectHideFlags: 0
